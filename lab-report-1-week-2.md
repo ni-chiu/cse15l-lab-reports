@@ -4,4 +4,4 @@
 
 [Link Format 1](lab-report-1-week-2.html)
 
-[Link Format 2](https://ni-chiu.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html)
+[Link Format 2](https://ni-chiu.github.io/cse15-lab-reports/lab-report-1-week-2.html)
