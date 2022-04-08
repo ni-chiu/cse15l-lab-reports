@@ -1,4 +1,5 @@
 **BOLD**
+<br>
 _Italics_
 # Heading 1
 ## Heading 2
