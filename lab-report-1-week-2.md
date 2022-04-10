@@ -5,11 +5,15 @@ This blog post is written as Lab Report 1 for CSE15L. This post will discuss rem
 ## Installing VScode
 To install VSCode, I nagivated to the [Visual Studio Code site](https://code.visualstudio.com/download) and downloaded the version corresponding to my operating system (Windows). There are also versions for all other major operating systems.
 
-![VSCode Download Page](images/VSCode Download.png)
+![VSCode Download Page](images\VSCode_Download.png)
 
-![VSCode Home Page]
+![VSCode Home Page](images\VSCode_Home_Page.png)
 
 ## Remotely Connecting
+Since I am on Windows, I had to navigate to [this link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to install Open SSH on my machine. Then, in VSCode, I opened a terminal window from the Terminal tab and used the command:
+$ ssh cs15lsp22afz@ieng6.ucsd.edu
+
+
 
 ## Trying Some Commands
 
