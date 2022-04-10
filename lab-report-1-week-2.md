@@ -49,5 +49,11 @@ ssh-keygen -t ed25519. After saving the key, I logged into the ieng6 server and 
 
 Then, after logging out, I ran the command: `$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` where I used the username for my client username and the path I saw using the previous command. 
 
+The image below shows me logging into the remote server without needing to input a password:
+![SSH](images\SSH.png)
 
 ## Optimizing Remote Running
+To optimize remote running, we can combine multiple commands into the same line using semicolons. That means we can do local changes and immediately copy them to and run them on the remote server since we have already set up our SSH key. I used the command:
+`$ ssh cs15lsp22afz@ieng6.ucsd.edu "javac WhereAmI.java" ; "java WhereAmI"`
+
+![Optimize]()
