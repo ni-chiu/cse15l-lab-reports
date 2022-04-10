@@ -1,6 +1,6 @@
 # CSE15L Lab Report 1 (Week 2)
 
-This blog post is written as Lab Report 1 for CSE15L. This post will discuss remote access (as well as related topics like moving files between computers and setting SSH keys) and terve as a tutorial for logging into a course-specific account on ieng6. 
+This blog post is written as Lab Report 1 for CSE15L. This post will discuss remote access (as well as related topics like moving files between computers and setting SSH keys) and serve as a tutorial for logging into a course-specific account on ieng6. 
 
 ## Installing VScode
 To install VSCode, I nagivated to the [Visual Studio Code site](https://code.visualstudio.com/download) and downloaded the version corresponding to my operating system (Windows). There are also versions for all other major operating systems.
@@ -30,8 +30,16 @@ Below are a list of common UNIX commands and what they do:
 * rm : remove
 * cat : view or create a file
 
+In lab, I ran the 'cd' command which did not do anything because I did not give a specific directly to be changed to.
+
+![cd](images\cd.png)
 
 ## Moving Files with SCP
+To move a file from the client to server, you have to run the scp command from the client. In lab, I created a file called WhereAmI.java and compiled it. Then, I moved it from my computer to the ieng6 computers using the command:
+<br>
+scp WhereAmI.java cs15lsp22---@ieng6.ucsd.edu:~/
+
+where --- was replaced by my username. After inputting my password, I was able to see the file in my home directly using the ls command.
 
 ## Setting an SSH Key
 
