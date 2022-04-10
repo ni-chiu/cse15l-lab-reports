@@ -53,7 +53,12 @@ The image below shows me logging into the remote server without needing to input
 ![SSH](images\SSH.png)
 
 ## Optimizing Remote Running
-To optimize remote running, we can combine multiple commands into the same line using semicolons. That means we can do local changes and immediately copy them to and run them on the remote server since we have already set up our SSH key. I used the command:
+To optimize remote running, we can combine multiple commands into the same line using semicolons. We can also put commands in quotes after an ssh command to run them on the server after login. That means we can do local changes and immediately copy them to and run them on the remote server since we have already set up our SSH key. I used the command:
 `$ ssh cs15lsp22afz@ieng6.ucsd.edu "javac WhereAmI.java" ; "java WhereAmI"`
 
-![Optimize]()
+![Optimize](images\Optimizing.png)
+
+This command logs into the remote server, compiles the file, and runs it all in the same line. 
+
+## End
+Thank you for reading!
