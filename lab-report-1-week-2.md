@@ -5,7 +5,7 @@ This blog post is written as Lab Report 1 for CSE15L. This post will discuss rem
 ## Installing VScode
 To install VSCode, I nagivated to the [Visual Studio Code site](https://code.visualstudio.com/download) and downloaded the version corresponding to my operating system (Windows). There are also versions for all other major operating systems.
 
-![VSCode Download Page](images/VSCode-Download.png)
+![VSCode Download Page](images/VSCode Download.png)
 
 ![VSCode Home Page]
 
