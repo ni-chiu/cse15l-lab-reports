@@ -22,7 +22,6 @@ Since I am on Windows, I had to navigate to [this link](https://docs.microsoft.c
 Below are a list of common UNIX commands and what they do:
 * pwd : print working directory
 * ls : list files
-
 * cp : copy
 * mv : move or rename
 * cd : change directory
@@ -54,7 +53,8 @@ The image below shows me logging into the remote server without needing to input
 
 ## Optimizing Remote Running
 To optimize remote running, we can combine multiple commands into the same line using semicolons. We can also put commands in quotes after an ssh command to run them on the server after login. That means we can do local changes and immediately copy them to and run them on the remote server since we have already set up our SSH key. I used the command:
-`$ ssh cs15lsp22afz@ieng6.ucsd.edu "javac WhereAmI.java" ; "java WhereAmI"`
+
+`$ ssh cs15lsp22afz@ieng6.ucsd.edu "javac WhereAmI.java ; java WhereAmI"`
 
 ![Optimize](images\Optimizing.png)
 
