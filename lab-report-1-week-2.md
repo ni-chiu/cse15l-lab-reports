@@ -19,6 +19,17 @@ $ ssh cs15lsp22---@ieng6.ucsd.edu
 ![SSH Command and Login](images\SSH.png)
 
 ## Trying Some Commands
+Below are a list of common UNIX commands and what they do:
+* pwd : print working directory
+* ls : list files
+
+* cp : copy
+* mv : move or rename
+* cd : change directory
+* mkdir : make directory
+* rm : remove
+* cat : view or create a file
+
 
 ## Moving Files with SCP
 
