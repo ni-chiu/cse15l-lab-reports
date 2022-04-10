@@ -11,9 +11,12 @@ To install VSCode, I nagivated to the [Visual Studio Code site](https://code.vis
 
 ## Remotely Connecting
 Since I am on Windows, I had to navigate to [this link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to install Open SSH on my machine. Then, in VSCode, I opened a terminal window from the Terminal tab and used the command:
-$ ssh cs15lsp22afz@ieng6.ucsd.edu
+<br>
+$ ssh cs15lsp22---@ieng6.ucsd.edu
 
+--- should be replaced by whatever your unique username is. When connecting for the first time, 'Yes' should also be selected when the terminal says 'Are you sure you want to continue connecting'. Lastly, the password will not show when being inputted so it is easier to copy-paste it from elsewhere.
 
+![SSH Command and Login](images\SSH.png)
 
 ## Trying Some Commands
 
