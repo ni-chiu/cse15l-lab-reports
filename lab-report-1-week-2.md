@@ -12,7 +12,7 @@ To install VSCode, I nagivated to the [Visual Studio Code site](https://code.vis
 ## Remotely Connecting
 Since I am on Windows, I had to navigate to [this link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to install Open SSH on my machine. Then, in VSCode, I opened a terminal window from the Terminal tab and used the command:
 <br>
-$ ssh cs15lsp22---@ieng6.ucsd.edu
+`$ ssh cs15lsp22---@ieng6.ucsd.edu`
 
 --- should be replaced by whatever your unique username is. When connecting for the first time, 'Yes' should also be selected when the terminal says 'Are you sure you want to continue connecting'. Lastly, the password will not show when being inputted so it is easier to copy-paste it from elsewhere.
 
@@ -37,10 +37,17 @@ In lab, I ran the 'cd' command which did not do anything because I did not give 
 ## Moving Files with SCP
 To move a file from the client to server, you have to run the scp command from the client. In lab, I created a file called WhereAmI.java and compiled it. Then, I moved it from my computer to the ieng6 computers using the command:
 <br>
-scp WhereAmI.java cs15lsp22---@ieng6.ucsd.edu:~/
+`scp WhereAmI.java cs15lsp22---@ieng6.ucsd.edu:~/`
 
 where --- was replaced by my username. After inputting my password, I was able to see the file in my home directly using the ls command.
 
+![SCP](images\SCP.png)
+
 ## Setting an SSH Key
+To set an SSH key, I generated public/private key pair using the command:
+ssh-keygen -t ed25519. After saving the key, I logged into the ieng6 server and ran the command: `$ mkdir .ssh`
+
+Then, after logging out, I ran the command: `$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` where I used the username for my client username and the path I saw using the previous command. 
+
 
 ## Optimizing Remote Running
