@@ -2,3 +2,6 @@
 
 This blog post is written as Lab Report 2 for CSE15L. Here, I will discuss three code changes my lab partner and I made while debugging our code in
 our Week 3 Lab.
+
+## Code Change 1
+
