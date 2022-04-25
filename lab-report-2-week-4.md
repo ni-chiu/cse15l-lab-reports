@@ -5,3 +5,6 @@ our Week 3 Lab.
 
 ## Code Change 1
 
+![Code Diff 1](images\Code Change 1 - Code Diff.png)
+
+[Link to the test file which caused the bug](https://github.com/ni-chiu/markdown-parser/blob/main/test-file.md)
