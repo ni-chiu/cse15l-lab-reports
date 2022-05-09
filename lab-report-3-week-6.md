@@ -49,8 +49,9 @@ To copy the whole directory into the `ieng6` account, we can use the command
 ![copyingWholeDirectory](images\copyingWholeDirectory.png)
 
 ### Logging in, Compiling, and Running the Tests for the Repository
-This portion of testing was run through remote access through VSCode which is why
-there is no `ssh ieng6` command. We ca
+After copying the directory over, we can now change our directory to the newly copied
+directory, compile files, and run tests. This portion of testing was run through 
+remote access through VSCode which is why there is no `ssh ieng6` command. 
 
 ![remoteTesting](images\remoteTesting.png)
 
