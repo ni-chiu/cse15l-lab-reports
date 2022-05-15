@@ -38,7 +38,7 @@ the `ieng6` server directly to Github using git commands from the command line.
 ![commandLineCommit](images\commandLineCommit.png)
 
 ### Link for the Commit
-https://github.com/ni-chiu/markdown-parser2/commit/8cb7b78adc035e7dc28b680cab650e853bd8d26f
+[Link to Commit](https://github.com/ni-chiu/markdown-parser2/commit/8cb7b78adc035e7dc28b680cab650e853bd8d26f)
 
 ## Copy Whole Directories With `scp -r`
 
