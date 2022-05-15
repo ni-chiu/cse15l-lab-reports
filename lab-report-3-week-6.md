@@ -10,7 +10,7 @@ The config file can be found at: `C:\Users\[User]\.ssh`. If the config does not 
 ### `ssh` Command 
 We can now log into the `ieng6` account using the new alias.
 
-![sshCommand](images\scpCommand.png)
+![sshCommand](images\sshCommand.png)
 
 ### `scp` Command
 We can also use the alias to copy over files.
