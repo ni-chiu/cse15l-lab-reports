@@ -7,6 +7,8 @@
 
 [Lab Report 3](https://ni-chiu.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
+[Lab Report 4](https://ni-chiu.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
 ___
 ## Resources
 [Link to Markdown Guide](https://commonmark.org/help)
