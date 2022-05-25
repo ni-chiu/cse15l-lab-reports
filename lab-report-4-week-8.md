@@ -30,6 +30,8 @@ The tests are the same for the two repositories.
 
 My Repo:
 
+![myRepoTestOutput1](images\myRepoOutput1.png)
+
 Reviewed Repo:
 
 *Insert image of the junit test results*
@@ -54,6 +56,8 @@ The tests are the same for the two repositories.
 
 My Repo:
 
+![myRepoTestOutput2](images\myRepoOutput2.png)
+
 Reviewed Repo:
 
 #### Do you think there is a small code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets?
@@ -75,6 +79,8 @@ The tests are the same for the two repositories.
 *Insert image of the junit test results*
 
 My Repo:
+
+![myRepoTestOutput3](images\myRepoOutput3.png)
 
 Reviewed Repo:
 
