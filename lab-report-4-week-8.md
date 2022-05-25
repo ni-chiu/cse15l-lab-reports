@@ -8,7 +8,16 @@ reviewed in the week 7 lab.
 
 [My repository link](https://github.com/ni-chiu/markdown-parser-nichiu)
 
+For this lab report, I made a copy of the repository that was reviewed in week 7 so I could
+properly save the markdown files and changes I made to the test file.
+
 [Repository that was reviewed in week 7](https://github.com/richmass1/markdown-parser)
+
+[Copy of the above repo](https://github.com/ni-chiu/markdown-parse-inclassreview)
+
+
+
+
 
 ## Testing the New Code Snippets
 
