@@ -21,7 +21,9 @@ the output should be: ``[`google.com, google.com, ucsd.edu]``
 
 #### Code
 
-*Insert image of the junit test*
+The tests are the same for the two repositories.
+
+![Snippet1Test](images\myRepoTest1.png)
 
 #### Corresponding Output
 *Insert image of the junit test results*
@@ -43,7 +45,9 @@ The output should be: ``[a.com, a.com(()), example.com]``
 
 #### Code
 
-*Insert image of the junit test*
+The tests are the same for the two repositories.
+
+![Snippet2Test](images\myRepoTest2.png)
 
 #### Corresponding Output
 *Insert image of the junit test results*
@@ -63,7 +67,9 @@ The output should be: ``[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-20
 
 #### Code
 
-*Insert image of the junit test*
+The tests are the same for the two repositories.
+
+![Snippet3Test](images\myRepoTest3.png)
 
 #### Corresponding Output
 *Insert image of the junit test results*
