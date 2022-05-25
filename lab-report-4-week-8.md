@@ -95,4 +95,4 @@ Reviewed Repo:
 
 #### Do you think there is a small code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses?
 
-The expected output on the markdown demo site shows that links that take up multiple lines and links with newlines within the brackets and parenthesis should not be recognized as a link; however, the current code does recognize then as links which causes the test to fail. 
+The expected output on the markdown demo site shows that links that take up multiple lines and links with newlines within the brackets and parenthesis should not be recognized as a link; however, the current code does recognize then as links which causes the test to fail. I do not know what the actual code for this change would be and I do not think this change is a small code change, but a fix for this problem would be to have the markdown parser ignore any links who has any parenthesis or brackets on different lines in the text file. That would insure that links with newlines are not recognized as valid links even if they have open and close brackets/parenthesis.
