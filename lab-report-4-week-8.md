@@ -34,7 +34,7 @@ My Repo:
 
 Reviewed Repo:
 
-*Insert image of the junit test results*
+![reviewRepoTestOutput1](images\reviewRepoOutput1.png)
 
 #### Do you think there is a small code change that will make your program work for snippet 1 and all related cases that use inline code with backticks?
 
@@ -52,13 +52,14 @@ The tests are the same for the two repositories.
 ![Snippet2Test](images\myRepoTest2.png)
 
 #### Corresponding Output
-*Insert image of the junit test results*
 
 My Repo:
 
 ![myRepoTestOutput2](images\myRepoOutput2.png)
 
 Reviewed Repo:
+
+![reviewRepoTestOutput2](images\reviewRepoOutput2.png)
 
 #### Do you think there is a small code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets?
 
@@ -76,13 +77,14 @@ The tests are the same for the two repositories.
 ![Snippet3Test](images\myRepoTest3.png)
 
 #### Corresponding Output
-*Insert image of the junit test results*
 
 My Repo:
 
 ![myRepoTestOutput3](images\myRepoOutput3.png)
 
 Reviewed Repo:
+
+![reviewRepoTestOutput3](images\reviewRepoOutput3.png)
 
 #### Do you think there is a small code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses?
 
