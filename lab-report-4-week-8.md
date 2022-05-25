@@ -15,10 +15,6 @@ properly save the markdown files and changes I made to the test file.
 
 [Copy of the above repo](https://github.com/ni-chiu/markdown-parse-inclassreview)
 
-
-
-
-
 ## Testing the New Code Snippets
 
 ### Snippet 1
@@ -35,7 +31,6 @@ The tests are the same for the two repositories.
 ![Snippet1Test](images\myRepoTest1.png)
 
 #### Corresponding Output
-*Insert image of the junit test results*
 
 My Repo:
 
@@ -47,7 +42,9 @@ Reviewed Repo:
 
 #### Do you think there is a small code change that will make your program work for snippet 1 and all related cases that use inline code with backticks?
 
-*Answer question*
+Based on the expected output and the test failure, I believe there is a small code change that will make my program
+work for snippet 1 and all related cases that use inline code with backticks. There are some cases where backticks are fine, like when the backticks are both within the open and close bracket/parenthesis. However, problems arise when
+the backticks encompase a bracket/parenthesis that is required for the link to the recognized as a link. Therefore, the code change would insure that key brackets and/or parenthesis within backticks are ignored so it does not get recognized as part of a link when it is actually inline code. 
 
 ### Snipet 2
 
@@ -72,7 +69,8 @@ Reviewed Repo:
 
 #### Do you think there is a small code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets?
 
-*Answer question*
+Because `markdown-parser` uses open and close brackets/parenthesis as the key to recognizing what is a link and what is not, I believe the necessary change would not be a small one. The code would have to pair an open bracket/parenthesis
+with the appropriate close bracket/parenthesis rather than the next one that is encountered. The discrepancy between expected output and actual output indicates that the code is unable to do so, which is why there are random unpaired brackets and/or parenthesis in the test output.
 
 ### Snipet 3
 
@@ -97,4 +95,4 @@ Reviewed Repo:
 
 #### Do you think there is a small code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses?
 
-*Answer question*
+The expected output on the markdown demo site shows that links that take up multiple lines and links with newlines within the brackets and parenthesis should not be recognized as a link; however, the current code does recognize then as links which causes the test to fail. 
