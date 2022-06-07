@@ -31,7 +31,7 @@ Screenshot of the Code:
 ## Test 2:
 
 ### Link to Test File
-[Link to Test 2](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/505.md)
+[Link to Test 2 - Test #505](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/505.md)
 
 ### Which Implementation (or neither) is Correct?
 Based on the expected result and the actual results, I think neither implementation is incorrect.
@@ -49,7 +49,7 @@ Actual output from my implementation:
 ![Actual Output myRepo](images\Test505myRepo.png)
 
 Actual output from the provided implementation:
-![Actual Output providedRepo](images\Test495theirRepo.png)
+![Actual Output providedRepo](images\Test505theirRepo.png)
 
 ### Describing the Bug for the Incorrect Implementation that’s not correct. What is Wrong and Where?
 The Bug: Since both implementation are incorrect, the code that is being reviewed is the provided implementation. The bug in the code is between lines 75 and 80. The if statement does not add anything into `toReturn` because the index of a space is not negative 1. However, as the markdown previews show, although the link is invalid, it is still recognized as a link meaning something should be added to `toReturn`.
