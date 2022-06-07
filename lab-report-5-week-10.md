@@ -1,7 +1,7 @@
 # CSE15L Lab Report 5 (Week 10)
 
 ## How I Found the Tests with Different Results
-To find tests with differing results, I used vimdiff. Vimdiff allowed me to
+To find tests with differing results, I used vimdiff on the results of running a bash script. Vimdiff allowed me to
 easily find the different outputs since it highlights the differences.
 
 ## Test 1:
