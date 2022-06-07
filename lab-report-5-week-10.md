@@ -23,7 +23,7 @@ Actual output from the provided implementation:
 ![Actual Output providedRepo](images\Test495theirRepo.png)
 
 ### Describing the Bug for the Incorrect Implementation that’s not correct. What is Wrong and Where?
-The Bug: The bug in the code in my implementation occurs on line 42. The code does not properly consider the possiblity of having parenthesis as part of the link URL. Currently, the add statement adds everything in between the open parenthesis and next close parenthesis, but in reality, it should pair the parenthesis and return everything within the outside parenthesis.
+The Bug: The bug in the code in my implementation occurs on line 42. The code does not properly consider the possiblity of having nested parenthesis as part of the link URL. Currently, the add statement adds everything in between the open parenthesis and next close parenthesis, but in reality, it should pair the parenthesis and return everything within the outside parenthesis.
 
 Screenshot of the Code:
 ![Screenshot of Code 2](images\errorCodeTest495.png)
