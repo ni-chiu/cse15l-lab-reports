@@ -5,13 +5,14 @@
 ## Test 1:
 
 ### Link to Test File
-[Link to Test 1]()
+[Link to Test 1 - Test #495](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/495.md)
 
 ### Which Implementation (or neither) is Correct?
-
+The implementation in the provided repository is the correct implementation based
+on the outputs of the test.
 
 ### Expected and Actual Output
-![Expected Output]()
+Expected Output: `[foo(and(bar))]`
 
 Actual output from my implementation:
 ![Actual Output myRepo]()
