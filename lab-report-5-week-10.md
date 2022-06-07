@@ -31,19 +31,21 @@ Screenshot of the Code:
 ## Test 2:
 
 ### Link to Test File
-[Link to Test 2]()
+[Link to Test 2](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/505.md)
 
 ### Which Implementation (or neither) is Correct?
 
 
 ### Expected and Actual Output
-![Expected Output]()
+Code in markdown:
+
+![test505](images\test505md.png)
 
 Actual output from my implementation:
-![Actual Output myRepo]()
+![Actual Output myRepo](images\Test505myRepo.png)
 
 Actual output from the provided implementation:
-![Actual Output providedRepo]()
+![Actual Output providedRepo](images\Test495theirRepo.png)
 
 ### Describing the Bug for the Incorrect Implementation that’s not correct. What is Wrong and Where?
 The Bug:
